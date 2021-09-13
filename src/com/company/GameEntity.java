@@ -8,6 +8,10 @@ public abstract class GameEntity {
         this.health = health;
         this.damage = damage;
     }
+    public int putDamage(int damage){
+        this.health=this.health-damage;
+        return this.health;
+    }
 
     public int getHealth() {
         return health;
