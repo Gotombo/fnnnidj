@@ -13,4 +13,6 @@ public class Magical extends Hero {
     public void useAbility(Hero[] heroes, boss boss) {
 
     }
+
+
 }

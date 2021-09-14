@@ -1,7 +1,31 @@
 package com.company;
 
-public interface HavingSuperAbility {
-    public static String SyperPower =("Kik out");
-    abstract void applySuperAbility();
+public abstract class HavingSuperAbility {
+    protected int health;
+    protected int damage;
 
+    public HavingSuperAbility(int health, int damage) {
+        this.health = health;
+        this.damage = damage;
+    }
+    public int putDamage(int damage){
+        this.health=this.health-damage;
+        return this.health;
+    }
+
+    public int getHealth() {
+        return health;
+    }
+
+    public void setHealth(int health) {
+        this.health = health;
+    }
+
+    public int getDamage() {
+        return damage;
+    }
+
+    public void setDamage(int damage) {
+        this.damage = damage;
+    }
 }

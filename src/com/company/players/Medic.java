@@ -1,6 +1,7 @@
 package com.company.players;
 
 import com.company.AbilityType;
+import com.company.HavingSuperAbility;
 import com.company.boss.boss;
 
 public class Medic extends Hero {
@@ -13,4 +14,5 @@ public class Medic extends Hero {
     public void useAbility(Hero[] heroes, boss boss) {
 
     }
+
 }

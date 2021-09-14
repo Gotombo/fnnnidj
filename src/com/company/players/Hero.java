@@ -12,6 +12,8 @@ public abstract class Hero extends GameEntity implements IAbility {
         this.ability=ability;
     }
 
+
+
     public AbilityType getAbility() {
         return ability;
     }
